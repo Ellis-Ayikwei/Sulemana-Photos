@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------
+   Sulemana Photos - global styles
+
+   Component styling is Tailwind (see tailwind.config.ts, fed by
+   lib/palette.ts). This file holds only what utilities cannot express:
+   the custom properties, global focus states, and motion preferences.
+--------------------------------------------------------- */
+
+@layer base {
+  :root {
+    --font-sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-serif: Georgia, "Times New Roman", serif;
+
+    /* Header height. Exposed to Tailwind as the `nav` spacing value, so
+       `h-nav` and `h-[calc(100svh-theme(spacing.nav))]` both work. */
+    --nav-h: clamp(64px, 6.6vw, 108px);
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+
+  /* Keyboard focus is visible everywhere; mouse clicks stay clean.
+     Dark tiles override this inline with focus-visible: utilities. */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brass;
+    outline-style: solid;
+  }
+}
+
+/* Respect users who have asked for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
