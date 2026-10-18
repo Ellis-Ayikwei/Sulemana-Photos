@@ -114,8 +114,6 @@ staging a project before the edit is delivered.
       without delivering anything - see the comment at the top of
       [components/contact/ContactForm.tsx](components/contact/ContactForm.tsx).
       The direct email link on the form is the only live channel until then.
-- [ ] **Replace the studio details** in [data/site.ts](data/site.ts) - the phone
-      number is a placeholder (`+233 24 000 0000`) and both social links are `#`.
 - [ ] **Set the real domain** (`site.url`) - it feeds metadata, OG tags and the sitemap.
 - [ ] **Swap the testimonials** in [data/testimonials.ts](data/testimonials.ts) for
       real quotes, then set `TESTIMONIALS_ARE_PLACEHOLDER = false` to hide the

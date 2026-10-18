@@ -54,9 +54,9 @@ export default function FrameOverlay({
               {cat}
             </div>
           )}
-          <div className={`font-serif leading-[1.15] ${big ? "text-2xl" : "text-lg"}`}>
+          {/*<div className={`font-serif leading-[1.15] ${big ? "text-2xl" : "text-lg"}`}>
             {title}
-          </div>
+          </div>*/}
           {client && <div className="mt-0.5 text-xs text-stone-200">{client}</div>}
         </div>
       )}

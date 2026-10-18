@@ -18,9 +18,9 @@ export const site = {
   phone: "+233 20 189 1083",
   location: "Accra, Ghana",
   social: {
-    instagram: "#",
-    facebook: "#",
-    x: "#",
+    instagram: "https://www.instagram.com/sulemana_photos",
+    facebook: "https://www.facebook.com/profile.php?id=100049124036879",
+    x: "https://x.com/sulemanaphotos",
     tiktok: "#",
   },
 } as const;
