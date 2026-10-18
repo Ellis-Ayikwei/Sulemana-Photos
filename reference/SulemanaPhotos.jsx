@@ -538,7 +538,7 @@ export default function SulemanaPhotos() {
               Sulemana Photos
             </div>
             <p style={{ fontSize: 13, maxWidth: 280, lineHeight: 1.6, color: "#a39d8f" }}>
-              Creative direction, photography and cinematography out of Accra, Ghana.
+              Creative direction, photography and cinematography in Accra, Ghana.
             </p>
           </div>
           <div style={{ display: "flex", gap: 48, flexWrap: "wrap" }}>

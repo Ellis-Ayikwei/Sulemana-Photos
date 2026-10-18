@@ -1,6 +1,6 @@
 # Sulemana Photos
 
-Creative direction, photography and cinematography out of Accra, Ghana.
+Creative direction, photography and cinematography in Accra, Ghana.
 
 A Next.js 15 (App Router) site - statically generated, no database, no backend.
 All content lives in typed files under [`data/`](data/), so copy and photography

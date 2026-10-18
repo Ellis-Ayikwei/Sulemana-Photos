@@ -11,27 +11,26 @@ export type Package = {
 
 export const PACKAGES: Package[] = [
   {
-    name: "Portrait Session",
+    name: "Studio Portrait",
     price: "GHS 1,500",
-    duration: "1.5 hours · studio or on-location",
+    duration: "2 hours · studio",
+    includes: ["3 outfit changes", "12 fully edited images"],
+  },
+  {
+    name: "On-Location Portrait",
+    price: "GHS 2,000",
+    duration: "2 hours · on-location",
     includes: [
-      "1 outfit change",
-      "20 fully edited images",
-      "Private online gallery",
-      "5-day delivery",
+      "3 outfit changes",
+      "15 fully edited images",
+      "Location fee covered by client",
     ],
   },
   {
-    name: "Wedding Day",
-    price: "From GHS 8,500",
-    duration: "Full-day coverage · up to 10 hours",
-    includes: [
-      "Ceremony + reception coverage",
-      "150+ edited images",
-      "3–5 min highlight film",
-      "Online gallery + USB",
-      "3-week delivery",
-    ],
+    name: "Engagement / Wedding Day",
+    price: "Price on request",
+    duration: "2 days' coverage · up to 10 hours",
+    includes: ["Ceremony + reception coverage", "Edited images on USB drive"],
     featured: true,
   },
   {

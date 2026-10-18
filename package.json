@@ -2,7 +2,7 @@
   "name": "sulemana-photos",
   "version": "1.0.0",
   "private": true,
-  "description": "Sulemana Photos - creative direction, photography and cinematography out of Accra, Ghana.",
+  "description": "Sulemana Photos - creative direction, photography and cinematography in Accra, Ghana.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

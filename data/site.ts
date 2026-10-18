@@ -11,7 +11,7 @@ export const site = {
   logo: "/brand/logo.png" as string | null,
   logoSize: { width: 1126, height: 663 },
   tagline:
-    "Creative direction, photography and cinematography out of Accra, Ghana.",
+    "Creative direction, photography and cinematography in Accra, Ghana.",
   /** Used for metadata + sitemap. Change to the real domain before launch. */
   url: "https://sulemanaphotos.com",
   email: "hello@sulemanaphotos.com",
