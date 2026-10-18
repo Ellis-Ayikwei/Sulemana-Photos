@@ -5,7 +5,7 @@ import { useId } from "react";
 /**
  * Film-grain texture overlay.
  *
- * Client-side because each instance needs a collision-free filter id —
+ * Client-side because each instance needs a collision-free filter id -
  * `useId` guarantees that and stays stable across hydration. React's ids
  * contain characters that are illegal in `url(#…)`, so they are stripped.
  */

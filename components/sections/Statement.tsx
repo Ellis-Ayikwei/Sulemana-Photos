@@ -1,6 +1,6 @@
 import { HOME_COPY } from "@/data/home";
 
-/** Dark pull-quote band — a typographic breather between image sections. */
+/** Dark pull-quote band - a typographic breather between image sections. */
 export default function Statement() {
   return (
     <section className="bg-ink px-7 py-[clamp(64px,9vw,120px)] text-paper">

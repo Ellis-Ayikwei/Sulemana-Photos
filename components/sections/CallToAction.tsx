@@ -4,7 +4,7 @@ import { HOME_COPY } from "@/data/home";
 import { site } from "@/data/site";
 import { btn } from "@/lib/ui";
 
-/** Closing band — the last thing above the footer. */
+/** Closing band - the last thing above the footer. */
 export default function CallToAction() {
   return (
     <section className="px-7 py-[clamp(64px,9vw,110px)] text-center">

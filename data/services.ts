@@ -70,7 +70,7 @@ export const DISCIPLINES = [
   },
   {
     icon: "film",
-    name: "Weddings & Film",
+    name: "Weddings & Documentaries",
     copy: "Full-day coverage delivered as a print gallery alongside a highlight film.",
   },
 ] as const;

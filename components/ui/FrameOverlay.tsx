@@ -1,9 +1,8 @@
 import { ArrowUpRight, Film, Play } from "lucide-react";
-import Viewfinder from "./Viewfinder";
 
 /**
- * The chrome that sits over a photograph: scrim, viewfinder brackets,
- * caption and hover affordances.
+ * The chrome that sits over a photograph: scrim, caption and hover
+ * affordances.
  *
  * Shared by `Frame` (fixed-ratio tiles) and the masonry portfolio, so both
  * carry identical treatment. Expects a `relative` positioned parent with
@@ -15,7 +14,6 @@ export default function FrameOverlay({
   cat,
   hasVideo = false,
   videoTile = false,
-  tight = false,
   interactive = false,
   big = false,
 }: {
@@ -25,8 +23,6 @@ export default function FrameOverlay({
   hasVideo?: boolean;
   /** Film tile: shows the play button and a "Film" badge. */
   videoTile?: boolean;
-  /** Pulls the viewfinder brackets inward — the hover state. */
-  tight?: boolean;
   /** Shows the corner arrow affordance. */
   interactive?: boolean;
   /** Larger title, for the 4:5 tiles. */
@@ -36,10 +32,6 @@ export default function FrameOverlay({
     <>
       {/* bottom scrim, so overlaid type stays legible on any image */}
       <div className="absolute inset-0 bg-scrim" />
-
-      <div className="text-paper opacity-[0.72] transition-opacity duration-300 group-hover:opacity-100">
-        <Viewfinder tight={tight} />
-      </div>
 
       {hasVideo && (
         <div className="absolute left-3.5 top-3.5 flex items-center gap-1.5 border border-paper/40 bg-ink/55 px-[9px] py-1 text-[10px] uppercase tracking-[0.12em] text-paper">

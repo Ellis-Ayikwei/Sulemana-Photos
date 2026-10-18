@@ -15,7 +15,7 @@ export const site = {
   /** Used for metadata + sitemap. Change to the real domain before launch. */
   url: "https://sulemanaphotos.com",
   email: "hello@sulemanaphotos.com",
-  phone: "+233 24 000 0000",
+  phone: "+233 20 189 1083",
   location: "Accra, Ghana",
   social: {
     instagram: "#",

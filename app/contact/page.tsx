@@ -22,7 +22,7 @@ export default function ContactPage() {
             Let&rsquo;s frame something worth remembering.
           </h1>
           <p className="mb-8 max-w-[420px] text-[15px] leading-[1.7] text-stone-600">
-            Whether it&rsquo;s a campaign, a brand film, or a portrait sitting —
+            Whether it&rsquo;s a campaign, a brand film, or a portrait sitting -
             tell me a little about the story you want told, and I&rsquo;ll get
             back to you within two business days.
           </p>

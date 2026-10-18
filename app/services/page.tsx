@@ -20,7 +20,7 @@ export default function ServicesPage() {
           Coverage built around how you&rsquo;ll actually use it.
         </h1>
         <p className="mb-12 max-w-[560px] text-[15px] leading-[1.7] text-stone-600">
-          Every package below is a starting point — sessions are shaped around
+          Every package below is a starting point - sessions are shaped around
           your date, location, and how the final images and film will be used.
           Prices are quoted in Ghana cedis.
         </p>
@@ -52,7 +52,7 @@ export default function ServicesPage() {
                 {p.includes.map((item) => (
                   <div key={item} className="flex items-start gap-2.5 text-[13.5px]">
                     <span aria-hidden="true" className="mt-0.5 text-brass">
-                      —
+                      -
                     </span>
                     <span>{item}</span>
                   </div>

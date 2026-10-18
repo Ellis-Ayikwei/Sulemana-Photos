@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
-import Viewfinder from "./Viewfinder";
 import type { Media } from "@/data/work";
 
 type Props = {
@@ -67,13 +66,13 @@ export default function MediaLightbox({
   };
 
   const isVideo = item.type === "video";
-  const caption = item.alt ?? [title, client].filter(Boolean).join(" — ");
+  const caption = item.alt ?? [title, client].filter(Boolean).join(" - ");
 
   return (
     <div
       role="dialog"
       aria-modal="true"
-      aria-label={`${title} — image ${index + 1} of ${count}`}
+      aria-label={`${title} - image ${index + 1} of ${count}`}
       onClick={onClose}
       className="fixed inset-0 z-[100] flex flex-col bg-[rgba(8,8,8,.96)]"
     >
@@ -85,7 +84,7 @@ export default function MediaLightbox({
         <div className="min-w-0">
           <div className="truncate text-[13px] tracking-[0.08em] text-paper">
             {title}
-            {client ? ` — ${client}` : ""}
+            {client ? ` - ${client}` : ""}
           </div>
         </div>
 
@@ -119,16 +118,13 @@ export default function MediaLightbox({
               <iframe
                 key={item.src}
                 src={item.src}
-                title={`${title} — film`}
+                title={`${title} - film`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="aspect-video w-full max-w-[1100px] border-none"
               />
             ) : (
               <div className="relative aspect-video w-full max-w-[1100px] bg-video">
-                <div className="absolute inset-8 text-paper opacity-30">
-                  <Viewfinder />
-                </div>
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
                   <div className="flex h-16 w-16 items-center justify-center rounded-full border border-paper/60">
                     <Play size={22} className="ml-[3px] fill-paper text-paper" />
@@ -182,17 +178,11 @@ export default function MediaLightbox({
         )}
       </div>
 
-      {/* caption + thumbnail rail */}
+      {/* thumbnail rail */}
       <div
         onClick={(e) => e.stopPropagation()}
         className="shrink-0 px-5 pb-5 pt-3"
       >
-        {item.alt && (
-          <p className="mx-auto mb-3 max-w-[820px] text-center text-xs leading-relaxed text-stone-300">
-            {item.alt}
-          </p>
-        )}
-
         {count > 1 && (
           <div className="mx-auto flex max-w-full justify-start gap-1.5 overflow-x-auto sm:justify-center">
             {items.map((m, i) => {

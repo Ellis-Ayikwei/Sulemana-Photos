@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Grain from "./Grain";
@@ -48,10 +47,6 @@ export default function Frame({
   priority = false,
   sizes = "(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 33vw",
 }: FrameProps) {
-  // Only the viewfinder needs JS - it changes SVG geometry, not just style.
-  // Everything else hangs off `group-hover`.
-  const [hover, setHover] = useState(false);
-
   const hasVideo = videoTile || (media ?? []).some((m) => m.type === "video");
   const interactive = Boolean(href || onOpen);
 
@@ -83,23 +78,15 @@ export default function Frame({
         cat={cat}
         hasVideo={hasVideo}
         videoTile={videoTile}
-        tight={hover}
         interactive={interactive}
         big={big}
       />
     </>
   );
 
-  const handlers = {
-    onMouseEnter: () => setHover(true),
-    onMouseLeave: () => setHover(false),
-    onFocus: () => setHover(true),
-    onBlur: () => setHover(false),
-  };
-
   if (href) {
     return (
-      <Link href={href} className={box} {...handlers}>
+      <Link href={href} className={box}>
         {inner}
       </Link>
     );
@@ -107,15 +94,11 @@ export default function Frame({
 
   if (onOpen) {
     return (
-      <button type="button" onClick={onOpen} className={box} {...handlers}>
+      <button type="button" onClick={onOpen} className={box}>
         {inner}
       </button>
     );
   }
 
-  return (
-    <div className={box} {...handlers}>
-      {inner}
-    </div>
-  );
+  return <div className={box}>{inner}</div>;
 }

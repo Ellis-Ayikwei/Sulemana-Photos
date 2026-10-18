@@ -6,7 +6,7 @@ import MediaLightbox from "@/components/ui/MediaLightbox";
 import type { Work } from "@/data/work";
 
 /**
- * A project's own media — stills and film from the same shoot.
+ * A project's own media - stills and film from the same shoot.
  * Every tile opens the lightbox, which then steps through the whole gallery.
  */
 export default function ProjectGallery({ work }: { work: Work }) {
@@ -22,11 +22,11 @@ export default function ProjectGallery({ work }: { work: Work }) {
           return (
             <div key={i} className="aspect-[4/5]">
               <Frame
-                title={isVideo ? `${work.title} — Film` : undefined}
+                title={isVideo ? `${work.title} - Film` : undefined}
                 cat={isVideo ? work.cat : undefined}
                 client={isVideo ? work.client : undefined}
                 src={isVideo ? m.poster : m.src}
-                alt={m.alt ?? `${work.title} — ${work.client}`}
+                alt={m.alt ?? `${work.title} - ${work.client}`}
                 full
                 videoTile={isVideo}
                 onOpen={() => setOpenAt(i)}

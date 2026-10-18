@@ -12,7 +12,7 @@ import { input } from "@/lib/ui";
  * point `submit()` at one of:
  *
  *   • a Next.js route handler (app/api/contact/route.ts) + Resend / Postmark
- *   • a form service (Formspree, Basin) — just change the <form> action
+ *   • a form service (Formspree, Basin) - just change the <form> action
  *   • your own SMTP relay
  *
  * Until then the direct email address below is the only channel that
@@ -50,7 +50,7 @@ export default function ContactForm() {
       <div className="bg-ink p-8 text-paper">
         <div className="mb-2 font-serif text-[22px]">Message sent.</div>
         <p className="text-sm leading-relaxed text-stone-200">
-          Thanks, {form.name.split(" ")[0]}. Your note has been logged — expect a
+          Thanks, {form.name.split(" ")[0]}. Your note has been logged - expect a
           reply at {form.email} within two business days.
         </p>
         <button
@@ -98,7 +98,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
           className={`${input} resize-y`}
-          placeholder="Tell me about the shoot — date, location, brief."
+          placeholder="Tell me about the shoot - date, location, brief."
         />
       </Field>
 

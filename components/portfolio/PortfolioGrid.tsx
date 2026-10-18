@@ -16,7 +16,7 @@ type WorkPhoto = Photo & { work: Work };
  * Masonry portfolio.
  *
  * Column count and tile heights come from each cover's real aspect ratio
- * (via `data/image-sizes.json`), so nothing is cropped — a landscape frame
+ * (via `data/image-sizes.json`), so nothing is cropped - a landscape frame
  * stays landscape. `react-photo-album` computes the layout; the render
  * callbacks swap in `next/image` for optimisation and layer the studio's
  * own frame chrome on top.
@@ -34,9 +34,9 @@ export default function PortfolioGrid() {
       src: w.cover ?? "",
       width,
       height,
-      alt: w.coverAlt ?? `${w.title} — ${w.client}`,
+      alt: w.coverAlt ?? `${w.title} - ${w.client}`,
       href: `/portfolio/${w.slug}`,
-      label: `${w.title} — ${w.client}`,
+      label: `${w.title} - ${w.client}`,
       work: w,
     };
   });

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
  * anchored bottom-right so it bleeds off the section edge.
  *
  * The copy renders at font-weight 600, which Georgia resolves to its bold
- * cut — that is what gives the layout its weight. Drop to `font-normal`
+ * cut - that is what gives the layout its weight. Drop to `font-normal`
  * to lighten it.
  */
 export default function AboutPage() {

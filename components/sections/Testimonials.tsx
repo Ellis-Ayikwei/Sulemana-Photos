@@ -28,7 +28,7 @@ export default function Testimonials() {
 
         {TESTIMONIALS_ARE_PLACEHOLDER && (
           <div className="mt-8 text-xs text-stone-500">
-            Placeholder quotes — swap in real client feedback before launch.
+            Placeholder quotes - swap in real client feedback before launch.
           </div>
         )}
       </div>

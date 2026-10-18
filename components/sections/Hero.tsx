@@ -1,42 +1,34 @@
-import Image from "next/image";
-import Grain from "@/components/ui/Grain";
-import { HERO } from "@/data/home";
+import fs from "node:fs";
+import path from "node:path";
+import HeroRotator from "./HeroRotator";
+import { HERO, type HeroSlide } from "@/data/home";
+
+const IMAGE = /\.(jpe?g|png|webp|avif)$/i;
+
+/** Every image in public/hero/<folder>, in filename order. */
+function readSlides(folder: string): HeroSlide[] {
+  const dir = path.join(process.cwd(), "public", "hero", folder);
+  if (!fs.existsSync(dir)) return [];
+
+  return fs
+    .readdirSync(dir)
+    .filter((f) => IMAGE.test(f))
+    .sort()
+    .map((f) => {
+      const words = f.replace(IMAGE, "").replace(/^\d+[-_ ]*/, "").replace(/[-_]+/g, " ").trim();
+      return {
+        src: `/hero/${folder}/${encodeURIComponent(f)}`,
+        alt: words ? words[0].toUpperCase() + words.slice(1) : "",
+      };
+    });
+}
 
 /**
  * Full-bleed two-frame hero, sized to fill the viewport below the header.
- * Deliberately typeless — the work carries the fold on its own.
+ * Deliberately typeless - the work carries the fold on its own. Images are
+ * read from public/hero/ at build time; see `HERO` in data/home.ts.
  */
 export default function Hero() {
-  return (
-    <section
-      aria-label="Featured work"
-      className="relative grid grid-cols-1 gap-1 bg-paper [grid-auto-rows:minmax(300px,44vh)] nav:h-[calc(100svh-var(--nav-h))] nav:min-h-[460px] nav:grid-cols-[1.94fr_1fr] nav:[grid-auto-rows:unset]"
-    >
-      {/* thin accent stripe down the left edge */}
-      <span
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-y-0 left-0 z-[2] w-1.5 bg-accent"
-      />
-
-      {HERO.map((panel, i) => (
-        <div
-          key={panel.src ?? i}
-          className={`relative overflow-hidden ${panel.gradient}`}
-        >
-          {panel.src ? (
-            <Image
-              src={panel.src}
-              alt={panel.alt ?? ""}
-              fill
-              priority
-              sizes={i === 0 ? "(max-width: 900px) 100vw, 66vw" : "(max-width: 900px) 100vw, 34vw"}
-              className="object-cover"
-            />
-          ) : (
-            <Grain opacity={0.3} />
-          )}
-        </div>
-      ))}
-    </section>
-  );
+  const panels = HERO.map((p) => ({ ...p, slides: readSlides(p.folder) }));
+  return <HeroRotator panels={panels} />;
 }
