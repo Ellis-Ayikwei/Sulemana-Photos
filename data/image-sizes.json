@@ -19,6 +19,54 @@
                                    "width":  1801,
                                    "height":  973
                                },
+    "/hero/tall/01-paired-watches-and-rings.jpg":  {
+                                                       "width":  1602,
+                                                       "height":  2400
+                                                   },
+    "/hero/tall/02-smiling-woman-hands-framing-her-face.jpg":  {
+                                                                   "width":  1597,
+                                                                   "height":  2400
+                                                               },
+    "/hero/tall/03-woman-in-a-yellow-dress-with-a-phone.jpg":  {
+                                                                   "width":  1602,
+                                                                   "height":  2400
+                                                               },
+    "/hero/tall/04-couple-in-matching-blue.jpg":  {
+                                                      "width":  1597,
+                                                      "height":  2400
+                                                  },
+    "/hero/tall/05-layered-necklaces-against-tan.jpg":  {
+                                                            "width":  1571,
+                                                            "height":  2400
+                                                        },
+    "/hero/tall/06-woman-reading-on-a-sunlit-balcony.jpg":  {
+                                                                "width":  1597,
+                                                                "height":  2400
+                                                            },
+    "/hero/wide/01-two-models-in-layered-gold-chains.jpg":  {
+                                                                "width":  2400,
+                                                                "height":  2102
+                                                            },
+    "/hero/wide/02-gold-circle-pendants-on-white-fabric.jpg":  {
+                                                                   "width":  2400,
+                                                                   "height":  1600
+                                                               },
+    "/hero/wide/03-three-friends-laughing-over-a-phone.jpg":  {
+                                                                  "width":  2400,
+                                                                  "height":  1597
+                                                              },
+    "/hero/wide/04-couple-with-a-heart-balloon-taking-a-selfie.jpg":  {
+                                                                          "width":  2400,
+                                                                          "height":  1597
+                                                                      },
+    "/hero/wide/05-amethyst-and-aquamarine-pendants.jpg":  {
+                                                               "width":  2400,
+                                                               "height":  1600
+                                                           },
+    "/hero/wide/06-three-colleagues-around-a-tablet.jpg":  {
+                                                               "width":  2400,
+                                                               "height":  1597
+                                                           },
     "/home/hero-campaign.jpg":  {
                                     "width":  2400,
                                     "height":  1602
@@ -35,168 +83,396 @@
                       "width":  512,
                       "height":  512
                   },
-    "/work/held-close/01.jpg":  {
-                                    "width":  1597,
-                                    "height":  2400
-                                },
-    "/work/held-close/02.jpg":  {
-                                    "width":  1597,
-                                    "height":  2400
-                                },
-    "/work/held-close/03.jpg":  {
-                                    "width":  1597,
-                                    "height":  2400
-                                },
-    "/work/held-close/04.jpg":  {
-                                    "width":  1597,
-                                    "height":  2400
-                                },
-    "/work/held-close/05.jpg":  {
-                                    "width":  1723,
-                                    "height":  2400
-                                },
-    "/work/held-close/06.jpg":  {
-                                    "width":  1571,
-                                    "height":  2400
-                                },
-    "/work/in-good-company/01.jpg":  {
-                                         "width":  1954,
-                                         "height":  2400
-                                     },
-    "/work/in-good-company/02.jpg":  {
-                                         "width":  1597,
-                                         "height":  2400
-                                     },
-    "/work/in-good-company/03.jpg":  {
-                                         "width":  2400,
-                                         "height":  1494
-                                     },
-    "/work/in-good-company/04.jpg":  {
-                                         "width":  2400,
-                                         "height":  1597
-                                     },
-    "/work/in-good-company/05.jpg":  {
-                                         "width":  2400,
-                                         "height":  1588
-                                     },
-    "/work/in-good-company/06.jpg":  {
-                                         "width":  1597,
-                                         "height":  2400
-                                     },
-    "/work/line-light/01.jpg":  {
-                                    "width":  2400,
-                                    "height":  1602
-                                },
-    "/work/line-light/02.jpg":  {
-                                    "width":  1602,
-                                    "height":  2400
-                                },
-    "/work/line-light/03.jpg":  {
-                                    "width":  1602,
-                                    "height":  2400
-                                },
-    "/work/line-light/04.jpg":  {
-                                    "width":  1639,
-                                    "height":  2400
-                                },
-    "/work/line-light/05.jpg":  {
-                                    "width":  1602,
-                                    "height":  2400
-                                },
-    "/work/line-light/06.jpg":  {
-                                    "width":  1701,
-                                    "height":  2400
-                                },
-    "/work/line-light/07.jpg":  {
-                                    "width":  2400,
-                                    "height":  1597
-                                },
-    "/work/quiet-gold/01.jpg":  {
-                                    "width":  2400,
-                                    "height":  1600
-                                },
-    "/work/quiet-gold/02.jpg":  {
-                                    "width":  2324,
-                                    "height":  2400
-                                },
-    "/work/quiet-gold/03.jpg":  {
-                                    "width":  2400,
-                                    "height":  1600
-                                },
-    "/work/quiet-gold/04.jpg":  {
-                                    "width":  2400,
-                                    "height":  1600
-                                },
-    "/work/quiet-gold/05.jpg":  {
-                                    "width":  2400,
-                                    "height":  1600
-                                },
-    "/work/quiet-gold/06.jpg":  {
-                                    "width":  2396,
-                                    "height":  2400
-                                },
-    "/work/quiet-gold/07.jpg":  {
-                                    "width":  2400,
-                                    "height":  1600
-                                },
-    "/work/quiet-gold/08.jpg":  {
-                                    "width":  2131,
-                                    "height":  2400
-                                },
-    "/work/working-light/01.jpg":  {
-                                       "width":  2400,
-                                       "height":  1597
-                                   },
-    "/work/working-light/02.jpg":  {
-                                       "width":  1597,
-                                       "height":  2400
-                                   },
-    "/work/working-light/03.jpg":  {
-                                       "width":  1597,
-                                       "height":  2400
-                                   },
-    "/work/working-light/04.jpg":  {
-                                       "width":  1597,
-                                       "height":  2400
-                                   },
-    "/work/working-light/05.jpg":  {
-                                       "width":  2400,
-                                       "height":  1597
-                                   },
-    "/work/worn-in-gold/01.jpg":  {
-                                      "width":  2400,
-                                      "height":  1939
-                                  },
-    "/work/worn-in-gold/02.jpg":  {
-                                      "width":  1861,
-                                      "height":  2400
-                                  },
-    "/work/worn-in-gold/03.jpg":  {
-                                      "width":  1846,
-                                      "height":  2400
-                                  },
-    "/work/worn-in-gold/04.jpg":  {
-                                      "width":  1975,
-                                      "height":  2400
-                                  },
-    "/work/worn-in-gold/05.jpg":  {
-                                      "width":  2400,
-                                      "height":  1602
-                                  },
-    "/work/worn-in-gold/06.jpg":  {
-                                      "width":  2400,
-                                      "height":  2102
-                                  },
-    "/work/worn-in-gold/07.jpg":  {
-                                      "width":  1700,
-                                      "height":  2400
-                                  },
-    "/work/worn-in-gold/08.jpg":  {
-                                      "width":  2400,
-                                      "height":  1725
-                                  },
-    "/work/worn-in-gold/09.jpg":  {
-                                      "width":  1602,
-                                      "height":  2400
-                                  }
+    "/work/kibita-organic/01.jpg":  {
+                                        "width":  1599,
+                                        "height":  2400
+                                    },
+    "/work/kibita-organic/02.jpg":  {
+                                        "width":  1599,
+                                        "height":  2400
+                                    },
+    "/work/kibita-organic/03.jpg":  {
+                                        "width":  1599,
+                                        "height":  2400
+                                    },
+    "/work/kibita-organic/04.jpg":  {
+                                        "width":  1598,
+                                        "height":  2400
+                                    },
+    "/work/portraits/01.jpg":  {
+                                   "width":  1600,
+                                   "height":  2400
+                               },
+    "/work/portraits/02.jpg":  {
+                                   "width":  1550,
+                                   "height":  2400
+                               },
+    "/work/portraits/03.jpg":  {
+                                   "width":  1737,
+                                   "height":  2400
+                               },
+    "/work/portraits/04.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/05.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/06.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/07.jpg":  {
+                                   "width":  1597,
+                                   "height":  2400
+                               },
+    "/work/portraits/08.jpg":  {
+                                   "width":  1597,
+                                   "height":  2400
+                               },
+    "/work/portraits/09.jpg":  {
+                                   "width":  1597,
+                                   "height":  2400
+                               },
+    "/work/portraits/10.jpg":  {
+                                   "width":  1597,
+                                   "height":  2400
+                               },
+    "/work/portraits/11.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/12.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/13.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/14.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/15.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/16.jpg":  {
+                                   "width":  1733,
+                                   "height":  2400
+                               },
+    "/work/portraits/17.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/18.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/19.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/20.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/21.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/22.jpg":  {
+                                   "width":  1799,
+                                   "height":  2400
+                               },
+    "/work/portraits/23.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/24.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/25.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/26.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/27.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/portraits/28.jpg":  {
+                                   "width":  2400,
+                                   "height":  1845
+                               },
+    "/work/portraits/29.jpg":  {
+                                   "width":  1677,
+                                   "height":  2400
+                               },
+    "/work/portraits/30.jpg":  {
+                                   "width":  1602,
+                                   "height":  2400
+                               },
+    "/work/samsung-campaign/01.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/02.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/03.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/04.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/05.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/06.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/07.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/08.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/09.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/10.jpg":  {
+                                          "width":  2400,
+                                          "height":  1494
+                                      },
+    "/work/samsung-campaign/11.jpg":  {
+                                          "width":  2400,
+                                          "height":  1554
+                                      },
+    "/work/samsung-campaign/12.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/13.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/14.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/15.jpg":  {
+                                          "width":  2400,
+                                          "height":  1588
+                                      },
+    "/work/samsung-campaign/16.jpg":  {
+                                          "width":  1954,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/17.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/18.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/19.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/20.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/21.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/22.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/23.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/24.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/25.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/26.jpg":  {
+                                          "width":  1838,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/27.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/28.jpg":  {
+                                          "width":  1597,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/29.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/30.jpg":  {
+                                          "width":  2400,
+                                          "height":  1597
+                                      },
+    "/work/samsung-campaign/31.jpg":  {
+                                          "width":  1613,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/32.jpg":  {
+                                          "width":  1861,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/33.jpg":  {
+                                          "width":  1602,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/34.jpg":  {
+                                          "width":  2400,
+                                          "height":  1708
+                                      },
+    "/work/samsung-campaign/35.jpg":  {
+                                          "width":  2400,
+                                          "height":  1602
+                                      },
+    "/work/samsung-campaign/36.jpg":  {
+                                          "width":  1602,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/37.jpg":  {
+                                          "width":  2400,
+                                          "height":  1602
+                                      },
+    "/work/samsung-campaign/38.jpg":  {
+                                          "width":  1602,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/39.jpg":  {
+                                          "width":  1822,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/40.jpg":  {
+                                          "width":  2400,
+                                          "height":  1602
+                                      },
+    "/work/samsung-campaign/41.jpg":  {
+                                          "width":  1810,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/42.jpg":  {
+                                          "width":  1602,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/43.jpg":  {
+                                          "width":  1602,
+                                          "height":  2400
+                                      },
+    "/work/samsung-campaign/44.jpg":  {
+                                          "width":  2400,
+                                          "height":  1676
+                                      },
+    "/work/sue-shimmers-jewelry/01.jpg":  {
+                                              "width":  2131,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/02.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/03.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/04.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/05.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/06.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/07.jpg":  {
+                                              "width":  1964,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/08.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/09.jpg":  {
+                                              "width":  1600,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/10.jpg":  {
+                                              "width":  2400,
+                                              "height":  1600
+                                          },
+    "/work/sue-shimmers-jewelry/11.jpg":  {
+                                              "width":  1601,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/12.jpg":  {
+                                              "width":  2400,
+                                              "height":  1602
+                                          },
+    "/work/sue-shimmers-jewelry/13.jpg":  {
+                                              "width":  1975,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/14.jpg":  {
+                                              "width":  2044,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/15.jpg":  {
+                                              "width":  2400,
+                                              "height":  1602
+                                          },
+    "/work/sue-shimmers-jewelry/16.jpg":  {
+                                              "width":  2400,
+                                              "height":  2102
+                                          },
+    "/work/sue-shimmers-jewelry/17.jpg":  {
+                                              "width":  1700,
+                                              "height":  2400
+                                          },
+    "/work/sue-shimmers-jewelry/18.jpg":  {
+                                              "width":  2400,
+                                              "height":  1602
+                                          },
+    "/work/sue-shimmers-jewelry/19.jpg":  {
+                                              "width":  2400,
+                                              "height":  1725
+                                          },
+    "/work/sue-shimmers-jewelry/20.jpg":  {
+                                              "width":  1602,
+                                              "height":  2400
+                                          }
 }

@@ -118,11 +118,12 @@ staging a project before the edit is delivered.
 - [ ] **Swap the testimonials** in [data/testimonials.ts](data/testimonials.ts) for
       real quotes, then set `TESTIMONIALS_ARE_PLACEHOLDER = false` to hide the
       disclaimer.
-- [ ] **Confirm the client credits.** `in-good-company` and `working-light` carry
-      generic credits because those frames contain no identifying branding.
-- [ ] **Add a portrait of Sulemana** for the About page - it currently borrows a
-      frame from the *Held Close* sitting (see `PORTRAIT` in
-      [app/about/page.tsx](app/about/page.tsx)).
+- [ ] **Replace the placeholder project details.** The four portfolio sets
+      (`samsung-campaign`, `sue-shimmers-jewelry`, `portraits`, `kibita-organic`)
+      have placeholder descriptions, years and per-frame alt text in
+      [data/work.ts](data/work.ts).
+- [ ] **Add a better portrait of Sulemana** for the About page if wanted - it uses
+      `public/about/portrait.png` (see `PORTRAIT` in [data/about.ts](data/about.ts)).
 
 ## Notes
 
