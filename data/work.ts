@@ -96,6 +96,7 @@ export const WORK: Work[] = [
       { type: "photo", src: "/work/samsung-campaign/42.jpg", alt: "Samsung Ghana brand campaign - frame 42" },
       { type: "photo", src: "/work/samsung-campaign/43.jpg", alt: "Samsung Ghana brand campaign - frame 43" },
       { type: "photo", src: "/work/samsung-campaign/44.jpg", alt: "Samsung Ghana brand campaign - frame 44" },
+      { type: "photo", src: "/work/samsung-campaign/45.jpg", alt: "Samsung Ghana brand campaign - frame 45" },
 
     ],
   },
@@ -121,7 +122,7 @@ export const WORK: Work[] = [
       { type: "photo", src: "/work/sue-shimmers-jewelry/09.jpg", alt: "Sue Shimmers jewelry - frame 9" },
       { type: "photo", src: "/work/sue-shimmers-jewelry/10.jpg", alt: "Sue Shimmers jewelry - frame 10" },
       { type: "photo", src: "/work/sue-shimmers-jewelry/11.jpg", alt: "Sue Shimmers jewelry - frame 11" },
-      { type: "photo", src: "/work/sue-shimmers-jewelry/12.jpg", alt: "Sue Shimmers jewelry - frame 12" },
+      // { type: "photo", src: "/work/sue-shimmers-jewelry/12.jpg", alt: "Sue Shimmers jewelry - frame 12" },
       { type: "photo", src: "/work/sue-shimmers-jewelry/13.jpg", alt: "Sue Shimmers jewelry - frame 13" },
       { type: "photo", src: "/work/sue-shimmers-jewelry/14.jpg", alt: "Sue Shimmers jewelry - frame 14" },
       { type: "photo", src: "/work/sue-shimmers-jewelry/15.jpg", alt: "Sue Shimmers jewelry - frame 15" },
